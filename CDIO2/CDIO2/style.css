@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* header */
+
+.header .container-fluid {
+    background-color: #f46f11;
+}
+
+h1 {
+    color: white;
+}
+
+
+/* navbar menu */
+
+.content_menu {
+    height: 100px;
+    border-bottom: 1px solid #9b8f8f;
+}
+
+.content_menu .navbar img {
+    width: 160px;
+    border-radius: 50%;
+    margin-right: 3%;
+}
+
+.content {
+    background-color: #1f1f21;
+}
+
+.content_menu {
+    background-color: #1f1f21;
+    margin-top: -8px;
+}
+
+.content_menu .navbar .collapse .nav-item a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-nav .nav-item {
+    font-size: 24px;
+    padding-right: 3%;
+}
+
+.collapse ul.navbar-nav li.nav-item a {
+    color: white;
+}
+
+.collection {
+    /* max-width: 1850px; */
+    width: 94%;
+    margin: 3% 3%;
+}
+
+.collection h1 {
+    color: white;
+}
+
+.collection ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.collection-item {
+    width: 18%;
+    color: white;
+    background-color: #28282a;
+}
+
+.collection-item img {
+    width: 100%;
+}
+
+.collection-content {
+    padding: 10% 15%;
+    /* margin-left: 15%; */
+}
+
+.collection-content .shop {
+    margin-top: 15%;
+    color: yellow;
+    font-size: 20px;
+}
+
+
+/* collection end */
+
+
+/* php css */
+
+
+/* fishing */
+
+.clear {
+    clear: both;
+}
+
+.fishing {
+    width: 99%;
+    padding: 3% 3%;
+    height: 100%;
+}
+
+.fishing h1 {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+.fish-item ul {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.fish-item ul li {
+    width: calc(96% / 4);
+    color: white;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.fish-item ul li img {
+    width: 100%;
+}
+
+.fish-item ul li button {
+    width: 90%;
+    line-height: 3.5;
+    border-radius: 30px;
+    background-color: #1f1f21;
+    color: white;
+    border: 3px solid white;
+}
+
+.fish-item ul li :nth-child(n + 2) {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.pagination {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 6%;
+    color: white;
+}
+
+.pagination ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* fishing end */
+
+
+/* subcribe */
+
+.subcribe {
+    background-color: #f46f11;
+}
+
+.subcribe-content {
+    padding: 3%;
+    text-align: center;
+    line-height: 2;
+}
+
+.subcribe-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.subcribe-content p {
+    font-size: 25px;
+}
+
+.subcribe-content input {
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 25%;
+    line-height: 2.4;
+    font-size: 25px;
+    padding-left: 1%;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #1f1f21;
+    color: white;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    padding-top: 3%;
+    font-size: 20px;
+}
+
+.right img {
+    float: left;
+    margin-left: 18%;
+    margin-right: 18%;
+    width: 40%;
+}
+
+.right-text {
+    padding-top: 7%;
+    font-size: 30px;
+}
+
+
+/* HOME */
+
+.introduce {
+    margin-top: 20px;
+    padding: 40px 50px 40px 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ct {
+    flex: 1 1;
+    width: 40%;
+    padding: 20px;
+    text-align: left;
+}
+
+.ct p {
+    font-size: 1.2rem;
+    margin-top: 40px;
+    width: 80%;
+}
+
+.ct img {
+    width: 100%;
+}
+
+.ct a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    padding: 4px 10px;
+    color: #ffffff;
+    background-color: #f46f11;
+}
+
+.ct a :hover {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.copyright {
+    background-color: #1f1f21;
+    color: #9b8f8f;
+    font-size: xx-small;
+}
+
+
+/* contact */
+
+.contact {
+    color: white;
+}
+
+.contact-us {
+    width: 50%;
+    margin: 5% auto;
+}
+
+.contact-us p {
+    margin: 6% auto;
+    font-size: 90px;
+}
+
+#form-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us .field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us .field input {
+    width: 48%;
+    margin-bottom: 4%;
+    line-height: 3.5;
+    border: 1px solid #9a9a9b;
+    background: #1f1f21;
+    font-size: 20px;
+    color: white;
+    padding-left: 2%;
+}
+
+.phone {
+    margin-bottom: 4%;
+    line-height: 3.5;
+    border: 1px solid #9a9a9b;
+    background: #1f1f21;
+    font-size: 20px;
+    color: white;
+    padding-left: 2%;
+}
+
+.comment {
+    line-height: 3.5;
+    border: 1px solid #9a9a9b;
+    background: #1f1f21;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 8%;
+    padding-left: 2%;
+}
+
+button.send {
+    width: 25%;
+    line-height: 3.5;
+    background-color: #f46f11;
+    border-radius: 50px;
+}
+
+
+/* modal */
+
+.modalhome {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    display: none;
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal__body {
+    width: 500px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.auth-form__container {
+    padding: 0 32px;
+}
+
+.auth-form__header {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.auth-form__heading {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.auth-form__switch-btn {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #f46f11;
+    cursor: pointer;
+}
+
+.auth-form__form {}
+
+.auth-form__input {
+    width: 100%;
+    height: 40px;
+    margin-top: 16px;
+    padding: 0 12px;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+}
+
+.auth-form__aside {
+    margin-top: 18px;
+}
+
+.auth-form__policy-text {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.auth-form__text-link {
+    color: #f46f11;
+}
+
+.auth-form__controls {
+    margin-top: 50px;
+}
+
+.auth-form__controls .btn {
+    min-width: 142px;
+    height: 34px;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.2rem;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    color: #28282a;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-form__controls .btn:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.auth-form__controls .btn.btn--primary {
+    background-color: #f46f11;
+    color: white;
+}
+
+.auth-form__controls {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-form__socials {
+    margin-top: 10px;
+    padding: 12px 36px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-form__socials .btn.btn--size-s {
+    height: 32px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #4664a5; */
+    color: white;
+    padding: 0;
+    padding-right: 5px;
+}
+
+.auth-form__socials-icon {
+    font-size: 1.8rem;
+}
+
+.auth-form__socials .auth-form__socials--facebook {
+    background-color: #4664a5;
+}
+
+.auth-form__socials--facebook .auth-form__socials-icon {
+    /* color: white; */
+    padding-top: 1px;
+    margin-left: 5px;
+    padding-right: 10px;
+    background-color: #4664a5;
+}
+
+.auth-form__socials .auth-form__socials--google {
+    background-color: #28282a;
+}
+
+.auth-form__socials--google .auth-form__socials-icon {
+    color: white;
+    padding-top: 1px;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+
+.auth-form__help {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-form__link {
+    font-size: 1.2rem;
+    color: #939393;
+}
+
+.auth-form__help--separate {
+    display: block;
+    height: 22px;
+    margin: 2px 16px;
+    border-left: 1px solid #eaeaea;
+}
+
+.auth-form__help-forgot {
+    color: #f46f11;
+}

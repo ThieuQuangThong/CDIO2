@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a:hover {
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:focus {
+    outline: none;
+    outline-offset: 0;
+    list-style: none;
+}
+
+a {
+    -webkit-transition: 300ms;
+    transition: 300ms;
+}
+
+.cart_info {
+    border: 1px solid #e6e4df;
+    /* margin-bottom: 50px; */
+    /* margin : 15px 0; */
+}
+
+.cart_info .cart_menu {
+    background: #fe980f;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.cart_info .table.table-condensed thead tr {
+    height: 51px;
+}
+
+.cart_info .table.table-condensed tr {
+    border-bottom: 1px solid#F7F7F0;
+}
+
+.cart_info .table.table-condensed tr:last-child {
+    border-bottom: 0;
+}
+
+.cart_info table tr td {
+    border-top: 0 none;
+    vertical-align: inherit;
+    margin-right: 5px;
+}
+
+.table td {
+    padding: 1.75rem;
+}
+
+.cart_info .image {
+    padding-left: 30px;
+}
+
+.cart_info .cart_description h4 {
+    margin-bottom: 0;
+}
+
+.cart_info .cart_description h4 a {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+/* .cart_info .cart_description p {
+      color: white
+  } */
+
+.cart_info .cart_price p {
+    color: white;
+    font-size: 18px;
+}
+
+.cart_info .cart_total_price {
+    color: #fe980f;
+    font-size: 24px;
+}
+
+.cart_product {
+    display: block;
+    width: 250px;
+    /*  margin: 15px -70px 10px 25px;*/
+}
+
+.cart_product img {
+    width: 100%;
+}
+
+.cart_quantity_button {
+    display: flex;
+}
+
+.cart_quantity_button a {
+    background: white;
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    height: 28px;
+    overflow: hidden;
+    text-align: center;
+    width: 24px;
+    float: left;
+    line-height: 28px;
+}
+
+.cart_quantity_input {
+    color: #696763;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.cart_delete {
+    display: block;
+    margin-right: -12px;
+    overflow: hidden;
+}
+
+.cart_delete a {
+    background: red;
+    color: #ffffff;
+    padding: 5px 7px;
+    font-size: 16px;
+}
+
+.cart_delete a:hover {
+    background: #fe980f;
+}
+
+.total_1 {
+    display: flex;
+    float: right;
+    color: #f7f7f0;
+}
+
+.price_total_1 {
+    font-size: 24px;
+    color: #fe980f;
+}
